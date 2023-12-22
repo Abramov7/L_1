@@ -1,0 +1,11 @@
+console.log('Нахождение объема и площади параллелепипеда');
+var a = prompt('Ребро a: ', 0);
+var b = prompt('Ребро b: ', 0);
+var c = prompt('Ребро c: ', 0);
+console.log(a);
+console.log(b);
+console.log(c);
+var v = a*b*c;
+var s = 2*(a*b + b*c + a*c);
+console.log('Объем: ' + v);
+console.log('Площадь: ' + s);
